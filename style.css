@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+p {
+    font-size: 18px;
+}
+
+span {
+    font-size: 18px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+.great {
+    margin: 32px;
+}
+
+body {
+    background-color: #fff;
+    /* color: #fff; */
+}
+
+.result {
+    background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    border-radius: 27px;
+    background-color: #4169E1;
+    width: 350px;
+    height: 510px;
+    color: #fff;
+    text-align: center;
+    padding: 60px;
+}
+
+.circule {
+
+    padding-top: 45px;
+    width: 190px;
+    height: 190px;
+    border-radius: 100px;
+    /* color: black; */
+    margin: 0 auto;
+    margin-top: 32px;
+    /* border: 1px solid  transparent; */
+    background-image: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+}
+
+.text-number {
+    /* margin-top: 45px; */
+    font-size: 70px;
+    color: #fff;
+}
+
+.summary {
+    /* display: flex;
+    flex-direction: column; */
+    display: grid;
+    border-radius: 27px;
+    background-color: white;
+    width: auto;
+    height: 510px;
+    box-shadow: 13px 10px 0px 3px rgba(245, 235, 235, 0.25);
+    padding: 40px;
+}
+
+.text-number1 {
+    color: hsl(241, 100%, 89%);
+}
+
+.text-result {
+    color: hsl(241, 100%, 89%);
+}
+
+button {
+    width: 290px;
+    height: 55px;
+    border-radius: 40px;
+    font-size: 20px;
+    color: #fff;
+    background-color: hsl(224, 30%, 27%);
+    border: none;
+    cursor: pointer;
+
+}
+
+
+.number100 {
+    color: hsl(241, 100%, 89%);
+}
+
+.numberReally {
+    color: black;
+    padding-left: 80px;
+}
+
+.reaction {
+    color: hsl(0, 100%, 67%);
+    background-color: hsl(0, 100%, 67%, 0.1);
+    border-radius: 10px;
+    padding: 10px;
+    width: 280px;
+}
+
+.memory {
+    color: hsl(39, 100%, 56%);
+    background-color: hsl(39, 100%, 56%, 0.1);
+    border-radius: 10px;
+    padding: 10px;
+    width: 280px;
+}
+
+.verbal {
+    color: hsl(166, 100%, 37%);
+    background-color: hsl(166, 100%, 37%, 0.1);
+    border-radius: 10px;
+    padding: 10px;
+    width: 280px;
+}
+
+.visual {
+
+    color: hsl(234, 85%, 45%);
+    background-color: hsl(234, 85%, 45%, 0.1);
+    border-radius: 10px;
+    padding: 10px;
+    width: 280px;
+}
+
+.resultados img {
+    margin-right: 10px;
+}
+
+.resultados {
+    display: flex;
+    justify-content: space-between;
+    width: 280px;
+    height: 50px;
+}
